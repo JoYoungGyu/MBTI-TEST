@@ -1,0 +1,16 @@
+/*메인화면 CSS*/
+body {
+    background-color: #F6FCFF;
+    background-image: url("../images/main_bg.jpg");  /*css파일을 나와서 값을 전달해줘야하기 떄문에 .. 을 붙여준다.*/ 
+    background-position: top center;    
+    background-repeat: no-repeat;   /*이미지를 넣으면 계속 반복되서 나오기 때문에 no-repeat를 넣어줘야함*/
+}
+.character{
+    width: 100%;    /*화면의 가로 넓이를 다 사용한다는 것*/
+    max-width: 364px;   /*100%로 사용할 경우에는 화면을 다 사용할 경우 전체화면에 이미지가 너무 크게 나오기 때문에 제한값을 줌*/
+    margin-left: auto;
+    margin-right: auto; /*두개를 사용하면 가운데 정렬이다 -> img태그일 경우(인라인) 가운데 정렬되지 않음 -> 변환(상자요소로)*/    margin-bottom: 40px;
+}
+
+
+
